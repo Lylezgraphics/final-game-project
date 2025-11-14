@@ -1683,12 +1683,14 @@ position = Vector2(-270.975, -37)
 script = SubResource("GDScript_0ep2h")
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
-position = Vector2(166, -65)
-zoom = Vector2(3, 3)
+position = Vector2(181, -80)
+zoom = Vector2(2.5, 2.5)
 limit_left = -320
 limit_top = -250
+limit_right = 320
 limit_bottom = 50
 position_smoothing_enabled = true
+editor_draw_limits = true
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
